@@ -37,9 +37,16 @@ public class Funcionario extends Pessoa {
     }
     @Override
     public String toString() {
-        return "Funcionario [nome=" + nome + ", matricula=" + matricula + ", idade=" + idade + ", cargo=" + cargo
-                + ", salario=" + salario + ", getNome()=" + getNome() + ", getIdade()=" + getIdade()
-                + ", getMatricula()=" + getMatricula() + ", getCargo()=" + getCargo() + ", getSalario()=" + getSalario()
+        return "\n== Funcionario == [\nNome :" + nome + 
+        "\nMatricula :" + matricula + 
+        "\nIdade :" + idade + 
+        "\nCargo :" + cargo
+                + "\nSalario :" + salario + 
+                "\nGetNome() :" + getNome() + 
+                "\nGetIdade() :" + getIdade()
+                + "\nGetMatricula() :" + getMatricula() + 
+                "\nGetCargo() :" + getCargo() + 
+                "\nGetSalario() :" + getSalario()
                 + "]";
     }
 
