@@ -40,8 +40,8 @@ public class Memoria {
 
     @Override
     public String toString() {
-        return "\n== Memoria == [\nMarca :" + marca + "\nModelo :" + modelo + "\nFrequecia :" + frequecia + "\nGetMarca() :"
-                + getMarca() + "\nGetModelo():" + getModelo() + "\nGetFrequecia():" + getFrequecia() + "]";
+        return "\n== Memoria == \nMarca :" + marca + "\nModelo :" + modelo + "\nFrequecia :" + frequecia + "\nGetMarca() :"
+                + getMarca() + "\nGetModelo():" + getModelo() + "\nGetFrequecia():" + getFrequecia() + "";
     }
 
     

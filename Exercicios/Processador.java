@@ -40,7 +40,7 @@ public class Processador {
 
     @Override
     public String toString() {
-        return "\n== Processador ==[\nMarca :" + marca + ", modelo=" + modelo + ", frequencia=" + frequencia + "]";
+        return "\n== Processador ==\nMarca :" + marca + "\nModelo :" + modelo + "\nFrequencia : " + frequencia + "";
     }
 
    
